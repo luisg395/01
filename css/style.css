@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	font-family: 'Hanken Grotesk', sans-serif;
+}
+
+section{
+	padding: 2% 2%;
+}
+
+.container{
+	width: 600px;
+	height: 450px;
+	background-color: white;
+	margin: 0 auto;
+	position: relative;
+	top: 130px;
+	border-radius: 30px;
+	display: flex;
+	box-shadow: 15px 15px 15px hsl(221, 100%, 96%);
+
+
+}
+
+
+.box-left{
+	background: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+	width: 300px;
+	height: 450px;
+	border-radius: 30px;
+	text-align: center;
+
+}
+
+.box-left > h2{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: hsl(241, 100%, 89%);
+	font-size: 21px;
+}
+
+.circle{
+	background: linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
+	margin-left: 60px;
+	margin-bottom: 25px;
+
+}
+
+.circle h1{
+	padding-top: 30px;
+	font-size: 80px;
+	color: white;
+	margin-bottom: 5px;
+}
+
+.circle p{
+	color: hsl(241, 100%, 89%);
+	font-size: 18px;
+
+}
+
+.left-bottom h2{
+	color: white;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+.left-bottom p{
+	color: hsl(241, 100%, 89%);
+	max-width: 230px;
+	margin-left: 35px;
+
+}
+
+.right h2{
+	margin: 27px 0 20px 20px;
+	
+}
+
+.right p{
+	margin: 20px 0 20px 10px;
+
+}
+
+.reaction{
+	background: hsla(0, 100%, 67%, 0.1);
+	display: flex;
+	width: 100%;
+	margin-left: 20px;
+	margin-bottom: 15px;
+	padding: 15px 0;
+	border-radius: 10px;
+
+}
+
+
+.reaction img{
+	margin-left: 10px;
+}
+
+.reaction p{
+	margin: 0 10px 0 10px;
+	color: hsl(0, 100%, 67%);
+}
+
+.reaction span{
+	margin-left: 68px;
+	color: #ccc;
+}
+
+.reaction b {
+	color: black;
+}
+
+.memory{
+	background: hsla(39, 100%, 56%, 0.1);
+	display: flex;
+	width: 100%;
+	margin-left: 20px;
+	margin-bottom: 15px;
+	padding: 15px 0;
+	border-radius: 10px;
+}
+
+.memory img{
+	margin-left: 10px;
+}
+
+.memory p{
+	margin: 0 10px 0 10px;
+	color: hsl(39, 100%, 56%);
+}
+
+.memory span{
+	margin-left: 70px;
+	color: #ccc;
+}
+
+.memory b {
+	color: black;
+}
+
+.verbal{
+	background: hsla(166, 100%, 37%, 0.1);
+	display: flex;
+	width: 100%;
+	margin-left: 20px;
+	margin-bottom: 15px;
+	padding: 15px 0;
+	border-radius: 10px;
+}
+
+.verbal img{
+	margin-left: 10px;
+}
+
+.verbal p{
+	margin: 0 10px 0 10px;
+	color: hsl(166, 100%, 37%);
+}
+
+.verbal span{
+	margin-left: 85px;
+	color: #ccc;
+}
+
+.verbal b {
+	color: black;
+}
+
+.visual{
+	background: hsla(234, 85%, 45%, 0.1);
+	display: flex;
+	width: 100%;
+	margin-left: 20px;
+	margin-bottom: 15px;
+	padding: 15px 0;
+	border-radius: 10px;
+}
+
+.visual img{
+	margin-left: 10px;
+}
+
+.visual p{
+	margin: 0 10px 0 10px;
+	color: hsl(234, 85%, 45%);
+}
+
+.visual span{
+	margin-left: 85px;
+	color: #ccc;
+}
+
+.visual b {
+	color: black;
+}
+
+
+button{
+	width: 100%;
+	height: 45px;
+	border-radius: 22.5px;
+	background: hsl(224, 30%, 27%);
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	font-weight: 500;
+	margin: 20px 0 0 20px;
+	border: none;
+	cursor: pointer;
+
+}
+
+button:hover{
+	background: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+
+}
+
+
+/********************************************************/
+@media screen and (max-width: 768px){
+body{
+	background-color: #ccc;
+}
+
+	.container{
+		width: 350px;
+		height: 900px;
+		top: 0;
+		flex-direction: column;
+		box-shadow: none;
+	}
+
+	.box-left{
+		width: 350px;
+		height: 45%;
+	}
+
+	.circle{
+		width: 150px;
+		height: 150px;
+		border-radius: 75px;
+		margin-left: 100px;
+	}
+	
+	.circle h1{
+		padding-top: 30px;
+		font-size: 50px;
+		margin-bottom: 5px;
+	}
+
+	.circle p{
+		font-size: 18px;
+
+	}
+
+	.left-bottom h2{
+		font-size: 25px;
+		margin-bottom: 15px;
+	}
+
+	.left-bottom p{
+		max-width: 280px;
+		margin-left: 35px;
+		margin-bottom: 60px;
+	}
+
+	.right h2{
+		font-size: 18px;
+		margin: 30px 0 30px 20px;
+	
+	}
+
+	.reaction{
+		width: 300px;
+		height: 55px;
+		margin-left: 25px;
+		margin-bottom: 20px;
+		
+
+	}
+
+	.reaction p{
+		font-size: 18px;
+
+	}
+
+	.reaction span{
+		margin-left: 95px;
+		font-size: 18px;
+	}
+
+	.memory{
+		width: 300px;
+		height: 55px;
+		margin-left: 25px;
+		margin-bottom: 20px;
+
+	}
+
+	.memory p{
+		font-size: 18px;
+
+	}
+
+	.memory span{
+		margin-left: 98px;
+		font-size: 18px;
+	}
+
+	.verbal{
+		width: 300px;
+		height: 55px;
+		margin-left: 25px;
+		margin-bottom: 20px;
+
+	}
+
+	.verbal p{
+		font-size: 18px;
+
+	}
+
+	.verbal span{
+		margin-left: 113px;
+		font-size: 18px;
+	}
+
+	.visual{
+		width: 300px;
+		height: 55px;
+		margin-left: 25px;
+		margin-bottom: 20px;
+
+	}
+
+	.visual p{
+		font-size: 18px;
+
+	}
+
+	.visual span{
+		margin-left: 117px;
+		font-size: 18px;
+	}
+
+	button{
+		width: 300px;
+		height: 50px;
+		border-radius: 25px;
+		font-size: 15px;
+		margin-left: 25px;
+		
+
+}
+
+
+}
